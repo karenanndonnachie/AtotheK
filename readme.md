@@ -46,13 +46,15 @@ function draw() {
 ### Other functions and syntax you may need:
 SHAPES | MATH | INPUT | COLOR
 ----------------------- |-----------------------  |-----------------------  |----------------------- 
-point (x, y) | int / float / long | mouseX | background(r, g, b)
-line (x1, y1, x2, y2) | width | mouseY | fill(r,g,b,a) 
-rect (x1, y1, w, h) | height | pmouseX | stroke (r,g,b)
-ellipse(cx, cy, w, h) | random (min, max) | pmouseY | noStroke()
-triangle(x1,y1,x2,y2,x3,x3) | translate(x,y) | keyPressed() | noFill()
-quad(x1,y1,x2,y2,x3,y3,x4,y4) | scale () | mousePressed() | strokeWeight(1) -->thickness
-bezier(x1,y1,anchor1x,anchor1y,x2,y2,anchor2x,anchory2y)* | rotate (PI) | millis() | [for transparent colour ] (r, g, b, *a*)
+[point (x, y)](https://p5js.org/reference/#/p5/point) | int / float / long | [mouseX](https://p5js.org/reference/#/p5/mouseX) | [color in general](https://p5js.org/reference/#/p5/color)
+[line (x1, y1, x2, y2)](https://p5js.org/reference/#/p5/line) | width | [mouseY](https://p5js.org/reference/#/p5/mouseY) |  [background(r, g, b)](https://p5js.org/reference/#/p5/background)
+[rect (x1, y1, w, h)](https://p5js.org/reference/#/p5/rect) | height | [pmouseX](https://p5js.org/reference/#/p5/pmouseX) | [fill()](https://p5js.org/reference/#/p5/fill) / [stroke ()](https://p5js.org/reference/#/p5/stroke)
+[ellipse(cx, cy, w, h)](https://p5js.org/reference/#/p5/ellipse) | random (min, max) | [pmouseY](https://p5js.org/reference/#/p5/pmouseY) | noStroke() ->turns stroke off
+[triangle(x1,y1,x2,y2,x3,x3)](https://p5js.org/reference/#/p5/triangle) | translate(x,y) | [keyPressed()](https://p5js.org/reference/#/p5/keyPressed) | noFill() -> turns fill off
+[quad(x1,y1,x2,y2,x3,y3,x4,y4)](https://p5js.org/reference/#/p5/quad) | [scale ()](https://p5js.org/reference/#/p5/scale) | [mousePressed()](https://p5js.org/reference/#/p5/mousePressed) | strokeWeight(1) -->thickness
+[bezier(x1,y1,anchor1x,anchor1y,x2,y2,anchor2x,anchory2y)](https://p5js.org/reference/#/p5/bezier)* | rotate (PI) | millis() | [for transparent colour ] (r, g, b, *a*)
+[circle(x, y, d)](https://p5js.org/reference/#/p5/circle) |
+[square(x, y, s, [tl], [tr], [br], [bl])](https://p5js.org/reference/#/p5/square) |
 
 ### How you can use one or two of these...
 ### Primitive Shapes Udated [EXAMPLE SKETCH]: 
