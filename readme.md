@@ -1,4 +1,5 @@
-# A to the K \~~> Week 1
+# A to the K \~~> Chapter 1
+[chapter 2] | [chapter 3] | [chapter 4] | [chapter 5]
 # P5js (the web version of Processing)
 This folder will contain snippets from Processing workshops and tutorials.<br/>
 Some simple starter instructions below.
