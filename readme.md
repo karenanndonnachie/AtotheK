@@ -1,5 +1,5 @@
 # A to the K \~~> Chapter 1: in the beginning
-[chapter 2](https://github.com/karenanndonnachie/AtotheK/chapter-2/) | [chapter 3] | [chapter 4] | [chapter 5]
+[chapter 2](https://github.com/karenanndonnachie/AtotheK/tree/main/chapter%202) | [chapter 3] | [chapter 4] | [chapter 5]
 # P5js (the web version of Processing)
 This folder will contain snippets from Processing workshops and tutorials.<br/>
 Some simple starter instructions below.
