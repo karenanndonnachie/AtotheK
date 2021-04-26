@@ -10,4 +10,8 @@
 * set other type parameters eg. `textSize()` or `lineHeight()` or `textWidth()`
 * write your text to the page with `text('your text', x, y)`
 
-## Example:
+## Examples in this folder:
+* A2TheK_spinningText
+* TextSimpleKerning
+* chompchomp
+* A2THEK_April20_random
