@@ -7,7 +7,7 @@ this will save an SVG file in your download folder
 
 function setup() {
     createCanvas(800, 600, SVG);
-    background(255);
+    background(120);
     noLoop();
 }
 
