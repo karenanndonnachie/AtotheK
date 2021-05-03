@@ -6,18 +6,13 @@ this will save an SVG file in your download folder
 */
 
 function setup() {
-  createCanvas(200, 200, SVG); // Create SVG Canvas
-  strokeWeight(1); // do 0.1 for laser
-  stroke(255, 0, 0); // red is good for laser
-  noFill(); // better not to have a fill for laser
+    createCanvas(800, 600, SVG);
+    background(255);
+    noLoop();
 }
 
 function draw() {
-  for (x = 0; x < 10; x++) {
-    for (y = 0; y < 10; y++) {
-      rect(x * 10, y * 10, x, y);
-    }
-}
+    ellipse(400, 300, 200, 200);
 }
 function keyPressed(){
 save("mySVG_###.svg"); // give file name
