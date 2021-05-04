@@ -1,2 +1,3 @@
 # Chapter 3
 ## Things start to get interesting...
+* We can work with [Sound](https://github.com/karenanndonnachie/AtotheK/Chapter_3/sound)
