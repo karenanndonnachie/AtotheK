@@ -11,7 +11,7 @@
 * write your text to the page with `text('your text', x, y)`
 
 ## Examples in this folder:
-* A2TheK_spinningText
-* TextSimpleKerning
-* chompchomp
-* A2THEK_April20_random
+* [Spinning Text](https://github.com/karenanndonnachie/AtotheK/chapter%202/A2TheK_spinningText)
+* [TextSimpleKerning](https://github.com/karenanndonnachie/AtotheK/chapter%202/TextSimpleKerning)
+* [chompchomp](https://github.com/karenanndonnachie/AtotheK/chapter%202/chompchomp)
+* [A2THEK_April20_random](https://github.com/karenanndonnachie/AtotheK/chapter%202/A2THEK_April20_random)
