@@ -64,10 +64,10 @@ function draw() {
   pop();
   fill(255);
   noStroke();
-  for (let s=0; s<students.length; s++){
-    names[s].update();
-    names[s].display();
-  } 
+  //for (let s=0; s<students.length; s++){
+    //names[s].update();
+    //names[s].display();
+  //} 
 }
 
 function windowResized() {
