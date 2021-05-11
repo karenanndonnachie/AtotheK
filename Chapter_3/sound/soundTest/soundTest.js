@@ -1,3 +1,4 @@
+//THIS SKETCH ONLY WORKS WITH P5SOUND LIBRARY INSTALLED (IE P5.SOUND.JS IN LIBRARIES FOLDER)
 var song; //initiating our variable
 var analyzer;
 function preload() {
