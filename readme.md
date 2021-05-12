@@ -1,5 +1,5 @@
 # A to the K \~~> Chapter 1: in the beginning
-[chapter 2](https://github.com/karenanndonnachie/AtotheK/tree/main/chapter%202) | [chapter 3](https://github.com/karenanndonnachie/AtotheK/tree/main/Chapter_3) | [chapter 4](https://github.com/karenanndonnachie/AtotheK/tree/main/Chapter_4) | [chapter 5]
+[chapter 2: working with fonts & words](https://github.com/karenanndonnachie/AtotheK/tree/main/chapter%202) | [chapter 3: Sound stuff](https://github.com/karenanndonnachie/AtotheK/tree/main/Chapter_3) | [chapter 4: Text to Points & more](https://github.com/karenanndonnachie/AtotheK/tree/main/Chapter_4) | [chapter 5]
 # P5js (the web version of Processing)
 This folder will contain snippets from Processing workshops and tutorials.<br/>
 Some simple starter instructions below.
