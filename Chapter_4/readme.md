@@ -6,3 +6,5 @@
   sampleFactor: 0.75,
   simplifyThreshold: 0    
     });`
+    
+ Find some nice uses of texttopoints here and here also here.
