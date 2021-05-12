@@ -20,9 +20,12 @@ In&nbsp;action&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description | [P5 js Librar
 <a href="https://karenanndonnachie.github.io/AtotheK/Chapter_4/p5Speech_singleLineContinuous/" target="_blank"><img src="../previewImages/p5Speech_workingSketch.JPG" width="120" height="110" /></a> | Speech to Text from microphone | [P5 Speech library](https://idmnyu.github.io/p5.js-speech/) | Uses microphone as input, writes text to screen. Can also do the inverse (ie. read a text) **NEEDS P5 SPEECH LIBRARY** | <a href="p5Speech_singleLineContinuous/" target="_blank">code here</a>
 <a href="https://github.com/FreddieRa/p5.3D/wiki/Word3D" target="_blank"><img src="../previewImages/WEBGL_3D_P5js_github.JPG" width="120" height="110"> | 3D TEXT with WEBGL P5js | [Github Repo](https://github.com/FreddieRa/p5.3D/wiki/Word3D) | Can make words, shapes and more in 3D with WEBGL | no demo 
 <a href="https://karenanndonnachie.github.io/AtotheK/Chapter_4/codewords_demo/"><img src="../previewImages/HairyCodeWords.JPG" width="120" height="110"> | p5js textToPoints() function | [textToPoints()](https://p5js.org/reference/#/p5.Font/textToPoints) | Uses loaded font geometry to create points | [code here](https://github.com/karenanndonnachie/AtotheK/tree/main/Chapter_4/codewords_demo/)
+<a href="https://karenanndonnachie.github.io/AtotheK/Chapter_4/testDistortVector/"><img src="../previewImages/textDistortAtotheK.JPG" width="120" height="110" /></a> | Distortion with textToPoints() | [textToPoints()](https://p5js.org/reference/#/p5.Font/textToPoints) | Distorted / animating **USES DISTORT CLASS** | <a href="testDistortVector/" target="_blank">testDistortVector/</a>
 <a href="https://karenanndonnachie.github.io/AtotheK/chapter 2/TextSimpleKerning/"><img src="../previewImages/letterspaceSlider.JPG" width="120" height="110"> | textWidth() & slider | [P5js Slider](https://p5js.org/reference/#/p5/createSlider) | Uses a slider to visualise letter spacing | [code here](https://https://github.com/karenanndonnachie/AtotheK/tree/main/chapter 2/TextSimpleKerning/)
 <a href="https://karenanndonnachie.github.io/AtotheK/Chapter_4/TextToPoints_Para_appearOverTime"><img src="../previewImages/paraWordPoint.JPG" width="120" height="110"> | textToPoints() & sentence.split(' ') | [p5js texttopoints()](https://p5js.org/reference/#/p5.Font/textToPoints) | Can break down and 'set' type within canvas contraints as paragraph, words, letters or points | <a href="TextToPoints_Para_appearOverTime/">TextToPoints_Para_appearOverTime
  ## Example of Keyboard functions
+ ### Use either keyTyped() or keyPressed()
+	example:
 <pre>function keyPressed()
 {
   // UP key
@@ -80,4 +83,3 @@ etc. Here is a list of the mouse related functions in p5js:
     <li><a href="http://p5js.org/reference/#/p5/touchMoved">touchMoved()</a></li>
     <li><a href="http://p5js.org/reference/#/p5/touchEnded">touchEnded()</a></li>
 </ul>
- Find some nice uses of texttopoints here and here also here.
