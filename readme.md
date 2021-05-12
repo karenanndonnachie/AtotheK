@@ -66,8 +66,6 @@ SHAPES | MATH | INPUT | COLOR
 function setup() {
   createCanvas (windowWidth, windowHeight);
   background (0, 0, 0);
-  
-# [NEXT](https://github.com/karenanndonnachie/AtotheK/tree/main/chapter%202) 
 }
 function draw() {
   noStroke();
@@ -81,4 +79,6 @@ function draw() {
   triangle (0.6*width, height/4, 0.75*width, 0.75*height, 0.45*width, 0.75*height);
 }
 </pre>
-* PRO-TIP! Set 'temporary' settings to your shapes/text/objects by using `push();` *before* your settings (eg. `translate();` `rotate();` `fill();` etc.) and then 'UNDO' these settings by using `pop();` after your settings
+  * PRO-TIP! Set 'temporary' settings to your shapes/text/objects by using `push();` *before* your settings (eg. `translate();` `rotate();` `fill();` etc.) and then 'UNDO' these settings by using `pop();` after your settings
+
+# [NEXT](https://github.com/karenanndonnachie/AtotheK/tree/main/chapter%202) 
