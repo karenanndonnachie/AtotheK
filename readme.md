@@ -66,6 +66,8 @@ SHAPES | MATH | INPUT | COLOR
 function setup() {
   createCanvas (windowWidth, windowHeight);
   background (0, 0, 0);
+  
+# [NEXT](https://github.com/karenanndonnachie/AtotheK/tree/main/chapter%202) 
 }
 function draw() {
   noStroke();
