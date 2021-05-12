@@ -22,5 +22,5 @@ function draw() {
   rotate(volume);
   text('DANCE!', 0, 0);
   pop();
-  text(int(volume), 100,100);
+  //text(int(volume), 100,100);//for debugging only
 }
