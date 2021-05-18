@@ -13,25 +13,7 @@ function setup() {
 }
 
 function draw() {
-push();
-  fill(0);
-  noStroke();
-  textAlign(CENTER);
-  //text(myText, windowWidth/2, 0.9*windowHeight);
-pop();
-//curves generating
-  var x1 = width  * noise(t + 10);
-  var x2 = mouseX * noise(t + 20);
-  var x3 = width * noise(t + 30);
-  var x4 = mouseX * noise(t + 40);
-  var y1 = mouseY * noise(t + 50);
-  var y2 = height * noise(t + 60);
-  var y3 = mouseY * noise(t + 70);
-  var y4 = height * noise(t + 80);
 
-  bezier(x1, y1, x2, y2, x3, y3, x4, y4);
-
-  t += 0.009;
   var x = frameCount / 100;
   var y = sin(x * PI * 2);
   line(x * width, height * 0.5,
