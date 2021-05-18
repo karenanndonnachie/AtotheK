@@ -3,7 +3,9 @@ var myText = 'click to pause/play, press r to reset canvas, hit enter to save!';
 
 function setup() {
   const canvas = createCanvas(800, 800, SVG);
-  stroke(10, 100);
+  //stroke(10, 100);
+  strokeWeight(2);
+  stroke('#ED225D');
   noFill();
   t = 0;
   background(255);
