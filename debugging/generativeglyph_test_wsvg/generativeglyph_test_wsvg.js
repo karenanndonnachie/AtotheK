@@ -30,6 +30,10 @@ pop();
   bezier(x1, y1, x2, y2, x3, y3, x4, y4);
 
   t += 0.009;
+  var x = frameCount / 100;
+  var y = sin(x * PI * 2);
+  line(x * width, height * 0.5,
+         x * width, y * height / 2 + height * 0.5);
   }
   
 
