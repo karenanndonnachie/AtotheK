@@ -10,6 +10,7 @@ var t=0.0;
 function setup() {
   createCanvas(600, 600, SVG); // Create SVG Canvas
   strokeWeight(1);
+  stroke(0);
   noFill();
 }
 
