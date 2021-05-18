@@ -8,7 +8,7 @@ function setup() {
   stroke('#ED225D');
   noFill();
   t = 0;
-  background(120);
+  background(200);
   frameRate(10);
 }
 
