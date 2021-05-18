@@ -1,33 +1,19 @@
-var t;
-var myText = 'click to pause/play, press r to reset canvas, hit enter to save!';
-
 function setup() {
-  createCanvas(800, 600, SVG);
-  //stroke(10, 100);
-  strokeWeight(2);
-  stroke('#000');
-  noFill();
-  t = 0;
-  background(200);
-  frameRate(1);
+    createCanvas(600, 200, SVG); // Create SVG Canvas
+    strokeWeight(2);
+    stroke('#ED225D');
 }
 
 function draw() {
-
-  beginShape ();
-   
-beginShape();
-curveVertex(84, 91);
-curveVertex(84, 91);
-curveVertex(68, 19);
-curveVertex(21, 17);
-curveVertex(32, 91);
-curveVertex(32, 91);
-endShape();
-  
-  save();
-  clear();
-  }
+    var x = frameCount / 100;
+    var y = sin(x * PI * 2);
+    line(x * width, height * 0.5,
+         x * width, y * height / 2 + height * 0.5);
+    if (frameCount > 100) {
+        noLoop();
+        save();
+    }
+}
   
 
 function mouseClicked() {
