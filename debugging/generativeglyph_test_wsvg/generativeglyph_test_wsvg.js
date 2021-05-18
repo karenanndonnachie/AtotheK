@@ -8,16 +8,23 @@ function setup() {
   stroke('#000');
   noFill();
   t = 0;
-  background(255,0,0);
+  background(200);
   frameRate(1);
 }
 
 function draw() {
 
   beginShape ();
-    curveVertex (random(100), random(100));
-    curveVertex (200, 200);
-  endShape();
+   
+beginShape();
+curveVertex(84, 91);
+curveVertex(84, 91);
+curveVertex(68, 19);
+curveVertex(21, 17);
+curveVertex(32, 91);
+curveVertex(32, 91);
+endShape();
+  
   save();
   clear();
   }
