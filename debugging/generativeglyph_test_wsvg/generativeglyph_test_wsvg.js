@@ -5,19 +5,20 @@ function setup() {
   createCanvas(800, 600, SVG);
   //stroke(10, 100);
   strokeWeight(2);
-  stroke('#ED225D');
+  stroke('#000');
   noFill();
   t = 0;
-  background(200);
-  frameRate(10);
+  background(255,0,0);
+  frameRate(1);
 }
 
 function draw() {
 
-  var x = frameCount / 100;
-  var y = sin(x * PI * 2);
-  line(x * width, height * 0.5, x * width, y * height / 2 + height * 0.5)
-  ellipse(width/2, height/2, 100, 100);
+  beginShape ();
+    curveVertex (random(100), random(100));
+    curveVertex (200, 200);
+  endShape();
+  save();
   clear();
   }
   
