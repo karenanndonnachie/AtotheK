@@ -17,7 +17,7 @@ push();
   fill(0);
   noStroke();
   textAlign(CENTER);
-  text(myText, windowWidth/2, 0.9*windowHeight);
+  //text(myText, windowWidth/2, 0.9*windowHeight);
 pop();
 //curves generating
   var x1 = width  * noise(t + 10);
