@@ -22,8 +22,6 @@ function checkLength(){
   fill(220);
   let fs="'wght' "+ pfat;
   cnv.style('font-variation-settings', fs);
-  console.log(fs);
-  //fontWeight(pfat);
   textFont('vartext', 100);
   text('Hello', width/2, height/2);
 }
