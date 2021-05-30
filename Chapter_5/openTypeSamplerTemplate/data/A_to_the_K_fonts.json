@@ -1,0 +1,68 @@
+{
+  "Daniel Pipolo": {
+    "StudentName ": "Daniel Pipolo",
+    "FontTitle": "Gummy Bear",
+    "FontLink": "https://github.com/DanielSan808/DanielStudio2/blob/main/GummyBear2.otf",
+    "FontNotes": "Monospaced Modular Font. Features Upper and Lower case, numbers and some symbols"
+  },
+  "": {
+    "StudentName ": null,
+    "FontTitle": null,
+    "FontLink": null,
+    "FontNotes": null
+  },
+  "Hien Nguyen": {
+    "StudentName ": "Hien Nguyen",
+    "FontTitle": "woah (haven't named it yet)",
+    "FontLink": "https://github.com/hiennguyendesign/a2thek/blob/main/woahwoahwoah2.otf",
+    "FontNotes": "English/Vietnamese font including all vietnamese glyphs/diacritics"
+  },
+  "Charles Ly": {
+    "StudentName ": "Charles Ly",
+    "FontTitle": "Arcanyx",
+    "FontLink": null,
+    "FontNotes": "Decorative Latin display typeface consisting of uppercase and \"lowercase\" letters, numericals, and grammatical glyphs."
+  },
+  "Charlotte Chiodo": {
+    "StudentName ": "Charlotte Chiodo",
+    "FontTitle": null,
+    "FontLink": null,
+    "FontNotes": null
+  },
+  "Bailey Dremel": {
+    "StudentName ": "Bailey Dremel",
+    "FontTitle": "Terminal-10",
+    "FontLink": "https://github.com/baileyldremel/typefacesampler/blob/main/TerminalTypeSampler/data/FontV6Terminal.otf",
+    "FontNotes": "Features: Uppercase, Lowercase, Numbers, Symbols"
+  },
+  "Lily Sinclair": {
+    "StudentName ": "Lily Sinclair",
+    "FontTitle": "playschool OR orange juice",
+    "FontLink": "https://github.com/lilsinclair/A2K-stuff-lily/blob/main/playschool.otf",
+    "FontNotes": "Sans serif typeface w/ lowercase, numerals, symbols & punctuation."
+  },
+  "Finn Arundel": {
+    "StudentName ": "Finn Arundel",
+    "FontTitle": "Computer-Generated Asemic Logographic Writing System",
+    "FontLink": "https://github.com/FinnArundel/A2theK/blob/main/Asemic2.otf",
+    "FontNotes": null
+  },
+  "Jacqueline Nathaniel": {
+    "StudentName ": "Jacqueline Nathaniel",
+    "FontTitle": null,
+    "FontLink": null,
+    "FontNotes": "uppercase, numerals, symbols"
+  },
+  "Tiffany Huang": {
+    "StudentName ": "Tiffany Huang",
+    "FontTitle": null,
+    "FontLink": null,
+    "FontNotes": "Uppercase, lowercase, symbols, punctuation"
+  },
+  "Emily Wyatt": {
+    "StudentName ": "Emily Wyatt",
+    "FontTitle": "Skeletons",
+    "FontLink": "https://github.com/emilyvictoriawyatt/Coding/blob/main/SkeletonsRegular.otf",
+    "FontNotes": "Uppercase\nLowercase\nNumbers\nPunctuation"
+  }
+}
