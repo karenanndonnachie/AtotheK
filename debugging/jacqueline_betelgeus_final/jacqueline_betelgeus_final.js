@@ -25,7 +25,7 @@ function setup() {
 function draw() {
   background(0);
   fill(150,0,0);
-  text(state, 100,100);
+  //text(state, 100,100);
   if (state==='scary'){
     volume = mic.getLevel();
     if (volume>0.5){
