@@ -1,4 +1,5 @@
-var rad, rot,pic, helv;
+var rad, pic, helv;
+var rot=0;
 function preload(){helv=loadFont('data/helv3.otf');
 helv2=loadFont('data/helv2.otf');
 helv3=loadFont('data/helv.otf');}
@@ -28,8 +29,8 @@ function draw() {
 }
 
   textFont( helv, int(.8*rad));
-  
-    rot=map(mouseX,0,width,-90,90);
+  if (mouseX>0){
+    rot=map(mouseX,0,width,-90,90);}
   push();
     translate(width/2, height/2-rad/8);
     push();
@@ -38,22 +39,13 @@ function draw() {
       rotate(rot);
       fill(255);
       text('A',0,rad/4);
-      //triangle(3*rad/4, 0, rad/4, 0, rad/2, -rad/4);
     pop();
       push();
       translate(rad/2, -rad/4);
       rotate(rot);
-      //beginShape();
-      //vertex(-rad/4, rad/4);
-      //vertex(0, -rad/4);
-      //vertex(rad/4,  rad/4);
-      //endShape();
-      //triangle(0, -rad/4, -rad/4, rad/4, rad/4,  rad/4);
-      //line(-rad/6,rad/12,rad/6,rad/12);
       noStroke();
       fill(255);
       text('A',0,rad/4);
-      //triangle(3*rad/4, 0, rad/4, 0, rad/2, -rad/4);
     pop();
     
   pop();
