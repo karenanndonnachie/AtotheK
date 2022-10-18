@@ -34,3 +34,10 @@ function mousePressed() {
 function mouseReleased() {
   loop();
 }
+function keyPressed(){
+  if (key==" "){
+    saveFrames("AVANTI_###", "jpg",1,1);}
+    else{
+  frameRate(int(key));}
+  
+}
